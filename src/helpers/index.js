@@ -1,5 +1,5 @@
 import {addToLS} from "./addToLS";
-import {getFromLS} from "./getFormLS";
+import {getFromLS} from "./getFromLS";
 import {getPositiveFeedback} from "./getPositiveFeedback";
 import {getTotalFeedback} from "./getTotalFeedback";
 
