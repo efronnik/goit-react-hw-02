@@ -1,0 +1,41 @@
+.list {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+  list-style: none;
+}
+
+.listItem button {
+  text-transform: capitalize;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  height: 35px;
+  border: solid 1px transparent;
+  background-color: #000099;
+  color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.resetButton button {
+  background-color: #cccc00;
+  color: #ffffff;
+}
+
+.listItem button:hover {
+  border: solid 1px #000099;
+  color: #000099;
+  background-color: transparent;
+}
+
+.resetButton button:hover {
+  border: solid 1px #cccc00;
+  color: #cccc00;
+}
+
+.resetButton {
+  margin-left: auto;
+}
